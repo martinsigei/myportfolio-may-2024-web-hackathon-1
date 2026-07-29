@@ -3,112 +3,241 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>My Portfolio</title>
+    <title>Martin Sigei — Data Analyst</title>
+    <meta name="description" content="Martin Sigei — Data Analyst working with SQL, Excel, Power BI and Python.">
     <link rel="stylesheet" href="style.css">
-    
     <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
 </head>
 <body>
+
     <header class="header">
-        <a href="#" class="logo">Martin.</a>
+        <a href="#" class="logo">Martin<span>.</span></a>
 
         <nav class="navbar">
             <a href="#" class="active">Home</a>
-            <a href="#TechStack">TechStack</a>
-            <a href="#Services">Services</a>
-            <a href="#Communities">Communities</a>
-            <a href="#Education">Education</a>
+            <a href="#techstack">TechStack</a>
+            <a href="#projects">Projects</a>
+            <a href="#services">Services</a>
+            <a href="#communities">Communities</a>
+            <a href="#education">Contact</a>
         </nav>
     </header>
-    <section class="home">
+
+    <!-- ============ HOME ============ -->
+    <section class="home" id="home">
         <div class="home-content">
+            <p class="eyebrow"><span class="dot"></span>Open to data analyst opportunities</p>
             <h1>Hi, I'm Martin Sigei</h1>
             <h3>Data Scientist/Analyst</h3>
-            <p>I'm a passionate beginner in the world of software development. My journey into coding began with a curiosity about how technology shapes our everyday lives, leading me to explore the fundamentals of programming. 
-                 I am proficient in HTML & CSS,JavaScript,Python,SQL and I enjoy solving problems and creating efficient, user-friendly applications.</p>
+            <p>
+                I turn raw data into decisions. I work across SQL, Excel, Power BI and Python to clean, analyze
+                and visualize data.
+                
+                I focus on creating reports and visualizations for data-forward companies.
+                
+                I'm laser-focused on creating business insights that drive decision making, 
+                and i help companies automate reports that connect to all their data.
+            </p>
             <div class="btn-box">
                 <a href="mailto:sigeimartin03@gmail.com" target="_blank">Hire Me</a>
-                <a href="mailto:sigeimartin03@gmail.com" target="_blank">Let's Talk</a>
+                <a href="#projects">See My Work</a>
+            </div>
         </div>
+
+        <div class="home-panel">
+            <div class="panel-header">
+                <span class="panel-dots"><i></i><i></i><i></i></span>
+                <span class="panel-title">Skills_Overview</span>
+            </div>
+            <div class="panel-body">
+                <div class="metric-row">
+                    <span class="metric-label">SQL</span>
+                    <div class="metric-bar"><div class="metric-fill" style="--value:100%"></div></div>
+                    <!--<span class="metric-value">Proficient</span>-->
+                </div>
+                <div class="metric-row">
+                    <span class="metric-label">Excel</span>
+                    <div class="metric-bar"><div class="metric-fill" style="--value:100%"></div></div>
+                    <!--<span class="metric-value">Proficient</span>-->
+                </div>
+                <div class="metric-row">
+                    <span class="metric-label">Power BI</span>
+                    <div class="metric-bar"><div class="metric-fill" style="--value:100%"></div></div>
+                    <!--<span class="metric-value">Working</span>-->
+                </div>
+                <div class="metric-row">
+                    <span class="metric-label">Python</span>
+                    <div class="metric-bar"><div class="metric-fill" style="--value:100%"></div></div>
+                    <!--<span class="metric-value">Working</span>-->
+                </div>
+            </div>
         </div>
+
         <div class="home-sci">
-            
-            <a href="https://www.instagram.com/goodboy_.marto/ " ><i class='bx bxl-instagram'></i></a>
-            <a href="https://github.com/martinsigei"><i class='bx bxl-github' ></i></a>
-            <a href="mailto:sigeimartin03@gmail.com"><i class='bx bxs-envelope' ></i></a>
-            <a href="https://www.linkedin.com/in/martin-kiplagat-003988310/"><i class='bx bxl-linkedin'></i></a>
+            <a href="https://github.com/martinsigei" target="_blank" aria-label="GitHub"><i class='bx bxl-github'></i></a>
+            <a href="https://www.linkedin.com/in/martin-kiplagat-003988310/" target="_blank" aria-label="LinkedIn"><i class='bx bxl-linkedin'></i></a>
+            <a href="mailto:sigeimartin03@gmail.com" aria-label="Email"><i class='bx bxs-envelope'></i></a>
         </div>
     </section>
 
-
-    
-  
-    <section class="page2" id="TechStack">
+    <!-- ============ TECH STACK ============ -->
+    <section class="page2" id="techstack">
         <div class="TechStack-content">
+            <span class="section-index">01</span>
             <h3>TechStack</h3>
-            <p>These are some of my skills:<br><br>
-                <strong>*HTML & CSS:</strong><br>
-                - Experience in building responsive and accessible web interfaces.</p><br>
-                <strong>*JavaScript:</strong><br>
-  - Proficient building interactive web applications.<br><br>
+            <p class="section-sub">Tools I use to find, clean, and explain what data is saying.</p>
 
- <strong>*Python:</strong><br>
-  - Experience in building web applications using python.<br><br>
-<strong>*SQL:</strong><br>
-  - Proficient in designing and querying databases.<br><br>
-  
-
-<strong>*Version Control (Git):</strong><br>
-  - Experience in collaborative projects using Git and GitHub.<br><br>
-    <div class="flex-container">
-        <div class="flex-item"><img src="html-1.svg" alt="Image 1"></div>
-        <div class="flex-item"><img src="css-3.svg" alt="Image 2"></div>
-        <div class="flex-item"><img src="logo-javascript.svg" alt="Image 3"></div>
-        <div class="flex-item"><img src="python-5.svg" alt="Image 4"></div>
-        <div class="flex-item"><img src="sql.jpeg" alt="Image 5"></div>
-    </div>
+            <div class="stack-grid">
+                <div class="stack-card">
+                    <i class='bx bx-data'></i>
+                    <h4>SQL</h4>
+                    <p>Writing and optimizing queries — joins, aggregations, window functions and CTEs.</p>
+                </div>
+                <div class="stack-card">
+                    <i class='bx bx-spreadsheet'></i>
+                    <h4>Excel</h4>
+                    <p>Pivot tables, lookups, and formula-driven models for fast, hands-on analysis.</p>
+                </div>
+                <div class="stack-card">
+                    <i class='bx bx-bar-chart-alt-2'></i>
+                    <h4>Power BI</h4>
+                    <p>Interactive dashboards and reports that turn raw datasets into a story anyone can act on.</p>
+                </div>
+                <div class="stack-card">
+                    <i class='bx bxl-python'></i>
+                    <h4>Python</h4>
+                    <p>Pandas and NumPy for cleaning and analysis, Matplotlib and Seaborn for visualization.</p>
+                </div>
+                <div class="stack-card">
+                    <i class='bx bx-git-branch'></i>
+                    <h4>Git &amp; GitHub</h4>
+                    <p>Version control for tracking, documenting, and sharing analysis and code.</p>
+                </div>
+                <div class="stack-card">
+                    <i class='bx bx-code-alt'></i>
+                    <h4>HTML, CSS &amp; JavaScript</h4>
+                    <p>Enough front-end to build and customize the pages that present my analysis.</p>
+                </div>
+            </div>
         </div>
     </section>
 
-    <section class="page3" id="Services">
+    <!-- ============ PROJECTS ============ -->
+    <section class="page3" id="projects">
+        <div class="Projects-content">
+            <span class="section-index">02</span>
+            <h3>Projects</h3>
+            <p class="section-sub">A showcase of my recent data analysis work and technical projects.</p>
+
+            <div class="project-grid">
+                <div class="project-card status-progress">
+                    <span class="project-status">Completed</span>
+                    <h4>SQL Sales Analysis</h4>
+                    <p>Querying a retail sales database to uncover revenue trends and top-performing products.</p>
+                    <div class="project-tags"><span>SQL</span><span>Excel</span></div>
+                </div>
+                <div class="project-card status-planned">
+                    <span class="project-status">Completed</span>
+                    <h4>Power BI Sales Dashboard</h4>
+                    <p>An interactive dashboard tracking KPIs like revenue, growth and customer segments.</p>
+                    <div class="project-tags"><span>Power BI</span><span>DAX</span></div>
+                </div>
+                <div class="project-card status-planned">
+                    <span class="project-status">Completed</span>
+                    <h4>Exploratory Data Analysis in Python</h4>
+                    <p>Cleaning a public dataset with Pandas and visualizing key patterns with Matplotlib and Seaborn.</p>
+                    <div class="project-tags"><span>Python</span><span>Pandas</span></div>
+                </div>
+            </div>
+            <p class="project-note">Full write-ups and code will be linked here — and on <a href="https://github.com/martinsigei" target="_blank">GitHub</a> — as each project ships.</p>
+        </div>
+    </section>
+
+    <!-- ============ SERVICES ============ -->
+    <section class="page4" id="services">
         <div class="Services-content">
-            <h3>Services</h3><br>  
-            <p>
-            <ol><li>Web Development.<br>I Create visually appealing and user-friendly interfaces with HTML, CSS, and JavaScript.
-                Implement responsive design principles to ensure websites work well on all devices.</li> <br>  
-            <li>Data Analysis<br>           
-                I Perform data analysis using Python libraries like Pandas and NumPy.
-                Extract, clean, and analyze data to provide actionable insights.</li><br>  
-               <li> Data Visualization<br>
-                
-                I Create interactive and informative data visualizations using JavaScript libraries like D3.js or Plotly, or Python libraries like Matplotlib and Seaborn.</li></ol></p>
+            <span class="section-index">03</span>
+            <h3>Services</h3>
+            <p class="section-sub">What I can help you do with your data.</p>
+
+            <div class="services-list">
+                <div class="service-row">
+                    <span class="service-num">01</span>
+                    <div>
+                        <h4>Data Analysis</h4>
+                        <p>Extracting, cleaning and analyzing data with SQL, Excel and Python to answer specific business questions.</p>
+                    </div>
+                </div>
+                <div class="service-row">
+                    <span class="service-num">02</span>
+                    <div>
+                        <h4>Dashboards &amp; Reporting</h4>
+                        <p>Building interactive Power BI dashboards and Excel reports that make metrics easy to track and act on.</p>
+                    </div>
+                </div>
+                <div class="service-row">
+                    <span class="service-num">03</span>
+                    <div>
+                        <h4>Data Visualization</h4>
+                        <p>Turning findings into clear charts and visuals using Python (Matplotlib, Seaborn) or Power BI.</p>
+                    </div>
+                </div>
+                <div class="service-row">
+                    <span class="service-num">04</span>
+                    <div>
+                        <h4>Web Development</h4>
+                        <p>Building responsive, accessible interfaces with HTML, CSS and JavaScript when a project needs one.</p>
+                    </div>
+                </div>
+            </div>
         </div>
     </section>
 
-    <section class="page4" id="Communities">
+    <!-- ============ COMMUNITIES ============ -->
+    <section class="page5" id="communities">
         <div class="Communities-content">
-            <h1>Communities</h1>
-            <h3>Power Learn Project</h3>
-            <p>The Power Learn Project (PLP) embarked on an ambitious journey in 2021, when a dedicated team formulated the vision of creating an organization committed to making tech training both affordable and accessible for the youth across Africa.
-                In 2024, PLP has continued to scale new heights.<br> <br> The organization welcomed its fourth cohort, consisting of 6,800 learners, following an overwhelming response with applications pouring in from 53 countries worldwide. This growth not only underscores PLP's expanding global influence but also highlights its enduring commitment to empowering African youth with critical skills for the digital era.
-            <br><br> I'm currently enrolled on the program where i'm gaining tech skills in order to build my career.</p><br><br>
-            <img align="center"  src="plp.jpeg" alt="communities">
+            <span class="section-index">04</span>
+            <h3>Communities</h3>
+
+            <div class="community-card">
+                <img src="plp.jpeg" alt="Power Learn Project cohort">
+                <div class="community-text">
+                    <h4>Power Learn Project</h4>
+                    <p>
+                        Power Learn Project (PLP) launched in 2021 to make tech training affordable and accessible for
+                        young people across Africa. In 2024, its fourth cohort welcomed 6,800 learners from 53 countries —
+                        a reflection of its growing reach and commitment to equipping African youth with skills for
+                        the digital economy.
+                    </p>
+                </div>
+            </div>
         </div>
     </section>
 
-    <section class="page5" id="Education">
+    <!-- ============ EDUCATION ============ -->
+    <section class="page6" id="education">
         <div class="Education-content">
-            <h3>Education</h3>
-            <p> <strong> <i class='bx bx-book-open' ></i>BSc. Mathematics and Computer Science (Ongoing)</strong><br>
-                <i class='bx bxs-graduation' ></i>Multimedia University Of Kenya,Nairobi,Kenya<br>
-                <i class='bx bx-time-five' ></i>Aug 2022 - April 2026<br>
-                <br><br>
-                <strong><i class='bx bx-book-open' ></i>Kenya Certificate of Secondary Education, K.C.S.E.</strong><br>
-                <i class='bx bxs-graduation' ></i>UpperHill School,Nairobi<br>
-                <i class='bx bx-time-five' ></i>Jan 2018 - March 2022<br>
-            </p>
+            <span class="section-index">05</span>
+            <h3>Thanks!</h3>
+
+        <div class="Thanks-content">
+            <p>Thank you for taking your time to visit my portfolio.</p>
+            <br>
+            <p>If you'd like to chat about me joining your team feel free to email me.</p>
+        </div>
         </div>
     </section>
-    <hr><footer align="center">Done with <i class='bx bxs-heart'></i> by <a  href="https://github.com/martinsigei" target="_blank">Martin Sigei</a></footer>
+
+    <footer>
+        <p class="footer-cta">Let's turn your data into decisions.</p>
+        <a href="mailto:sigeimartin03@gmail.com" class="footer-btn">Get in touch</a>
+        <div class="footer-sci">
+            <a href="https://github.com/martinsigei" target="_blank" aria-label="GitHub"><i class='bx bxl-github'></i></a>
+            <a href="https://www.linkedin.com/in/martin-kiplagat-003988310/" target="_blank" aria-label="LinkedIn"><i class='bx bxl-linkedin'></i></a>
+            <a href="mailto:sigeimartin03@gmail.com" aria-label="Email"><i class='bx bxs-envelope'></i></a>
+        </div>
+        <p class="footer-note">Done with <i class='bx bxs-heart'></i> by <a href="https://github.com/martinsigei" target="_blank">Martin Sigei</a></p>
+    </footer>
+
 </body>
 </html>
